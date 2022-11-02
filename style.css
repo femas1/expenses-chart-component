@@ -14,7 +14,7 @@ body {
     font-family: 'DM Sans', sans-serif;
 }
 
-.container__heading {
+.container__heading, .container__main__footer {
     background-color: hsl(10, 79%, 65%);
     display: flex;
     justify-content: space-between;
@@ -39,8 +39,33 @@ body {
 
 .container__main {
     background: hsl(0, 0%, 100%);
+    width: 500px;
+    height: 400px;
+    border-radius: 20px;
 }
+
+.container__main__heading {
+    padding-left: 25px;
+    padding-top: 25px;
+}
+
+.container__main__heading__days {
+    height: 60%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 0 30px 30px 30px;
+    border-bottom: 1px solid black;
+}
+
+.container__main__footer {
+    border-radius: 0 0 30px 30px;
+    background-color: hsl(0, 0%, 100%);
+    color: black;
+}
+
 .attribution { 
+    margin-top: 25px;
     font-size: 11px; text-align: center; 
 }
 .attribution a { 
