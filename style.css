@@ -6,8 +6,20 @@
 
 body {
     background-color: hsl(27, 66%, 92%);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
+.container__heading {
+    background-color: hsl(10, 79%, 65%);
+}
+
+.container__main {
+    background: hsl(0, 100%, 100%);
+}
 .attribution { 
     font-size: 11px; text-align: center; 
 }
