@@ -50,7 +50,7 @@ Users should be able to:
 
 ### What I learned
 
-- Creating a javascript bar chart using Chart.js
+- Getting data from local json file using the fetch method
 
 ## Author
 
