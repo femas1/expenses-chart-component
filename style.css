@@ -69,8 +69,12 @@ body {
     width: 50px;
     height: 150px;
     background-color: hsl(10, 79%, 65%);
-    transition: all 1s;
+    transition: all 2s;
     border-radius: 10px;
+}
+
+.container__main__heading__days__wed__bar {
+    background-color: hsl(186, 34%, 60%);
 }
 
 .container__main__footer {
