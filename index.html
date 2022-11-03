@@ -10,6 +10,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet"> 
 
+  <script src="https://cdn.jsdelivr.net/npm/chart.js" defer></script>3
+  <script src="script.js" defer></script>
+
   <title>Frontend Mentor | Expenses chart component</title>
 
 </head>
@@ -32,6 +35,12 @@
     <div class="container__main">
       <h1 class="container__main__heading">Spending - Last 7 days</h1>
       <div class="container__main__heading__days">
+
+        <!-- CHART JS CANVAS  -->
+        <div>
+          <canvas id="myChart"></canvas>
+        </div>
+        <!-- CHART JS CANVAS  -->
         <p class="container__main__heading__days__day">mon</p>
         <p class="container__main__heading__days__day">tue</p>
         <p class="container__main__heading__days__day">wed</p>
