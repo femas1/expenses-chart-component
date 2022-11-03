@@ -27,7 +27,8 @@ body {
     color: hsl(0, 0%, 100%);
 }
 
-.container__heading__balance__text {
+.container__heading__balance__text,
+.container__main__footer__heading__text {
     font-size: 16px;
     font-weight: 400;
 }
@@ -40,7 +41,7 @@ body {
 .container__main {
     background: hsl(0, 0%, 100%);
     width: 500px;
-    height: 450px;
+    height: 475px;
     border-radius: 20px;
 }
 
@@ -83,8 +84,28 @@ body {
     color: black;
 }
 
+.container__main__footer__heading__text, 
+.container__main__footer__heading__performance__time {
+    color: hsl(28, 10%, 53%);
+}
+
+.container__main__footer__heading__balance{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.container__main__footer {
+    margin-top: 20px;
+}
+
+.container__main__footer__heading__performance__percentile {
+    font-size: 16px;
+    font-weight: 700;
+    text-align: right;
+}
+
 .attribution { 
-    margin-top: 25px;
+    margin-top: 20px;
     font-size: 11px; text-align: center; 
 }
 .attribution a { 
