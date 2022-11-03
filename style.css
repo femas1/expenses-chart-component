@@ -40,7 +40,7 @@ body {
 .container__main {
     background: hsl(0, 0%, 100%);
     width: 500px;
-    height: 400px;
+    height: 450px;
     border-radius: 20px;
 }
 
