@@ -13,7 +13,13 @@ fetch('./data.json')
         let satValue = data[5].amount;
         let sunValue = data[6].amount;
         
-        
+        monBar.style.height = `${(highestValue * monValue) / wedValue}px`;
+        tueBar.style.height = `${(highestValue * tueValue) / wedValue}px`;
+        wedBar.style.height = `${(highestValue * wedValue) / wedValue}px`;
+        thuBar.style.height = `${(highestValue * thuValue) / wedValue}px`;
+        friBar.style.height = `${(highestValue * friValue) / wedValue}px`;
+        satBar.style.height = `${(highestValue * satValue) / wedValue}px`;
+        sunBar.style.height = `${(highestValue * sunValue) / wedValue}px`;
         
     })
 
