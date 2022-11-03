@@ -59,11 +59,17 @@ body {
     text-align: center;
 }
 
-.container__main__heading__days__mon__bar {
+.container__main__heading__days__mon__bar,
+.container__main__heading__days__tue__bar,
+.container__main__heading__days__wed__bar,
+.container__main__heading__days__thu__bar,
+.container__main__heading__days__fri__bar,
+.container__main__heading__days__sat__bar,
+.container__main__heading__days__sun__bar {
     width: 50px;
     height: 150px;
     background-color: hsl(10, 79%, 65%);
-
+    transition: all 1s;
     border-radius: 10px;
 }
 

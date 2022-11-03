@@ -16,3 +16,4 @@ const friBar = document.querySelector('.container__main__heading__days__fri__bar
 const satBar = document.querySelector('.container__main__heading__days__sat__bar');
 const sunBar = document.querySelector('.container__main__heading__days__sun__bar');
 
+monBar.style.height = "100px"
