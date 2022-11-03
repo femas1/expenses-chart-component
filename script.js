@@ -15,7 +15,7 @@ fetch('./data.json')
         
         monBar.style.height = `${(highestValue * monValue) / wedValue}px`;
         tueBar.style.height = `${(highestValue * tueValue) / wedValue}px`;
-        wedBar.style.height = `${(highestValue * wedValue) / wedValue}px`;
+        wedBar.style.height = `${highestValue}px`;
         thuBar.style.height = `${(highestValue * thuValue) / wedValue}px`;
         friBar.style.height = `${(highestValue * friValue) / wedValue}px`;
         satBar.style.height = `${(highestValue * satValue) / wedValue}px`;
@@ -32,7 +32,3 @@ const thuBar = document.querySelector('.container__main__heading__days__thu__bar
 const friBar = document.querySelector('.container__main__heading__days__fri__bar');
 const satBar = document.querySelector('.container__main__heading__days__sat__bar');
 const sunBar = document.querySelector('.container__main__heading__days__sun__bar');
-
-
-monBar.style.height = "100px"
-
