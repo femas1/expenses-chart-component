@@ -56,6 +56,15 @@ body {
     justify-content: space-between;
     padding: 0 30px 30px 30px;
     border-bottom: 1px solid black;
+    text-align: center;
+}
+
+.container__main__heading__days__mon__bar {
+    width: 50px;
+    height: 150px;
+    background-color: hsl(10, 79%, 65%);
+
+    border-radius: 10px;
 }
 
 .container__main__footer {
