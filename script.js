@@ -24,3 +24,7 @@
     options: {}
   };
 
+  const myChart = new Chart(
+    document.getElementById('expensesChart'),
+    config
+  );
