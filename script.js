@@ -33,6 +33,17 @@ const friBar = document.querySelector('.container__main__heading__days__fri__bar
 const satBar = document.querySelector('.container__main__heading__days__sat__bar');
 const sunBar = document.querySelector('.container__main__heading__days__sun__bar');
 
+const bars = document.querySelectorAll('.bar');
+const hoverValues = document.querySelectorAll('.barValue');
+
+bars.forEach(bar => {
+    bar.addEventListener('mouseover', () => {
+        hoverValues.forEach(hoverValue => {
+            hoverValue.closest('span').classList.remove('hidden')
+        })
+    })
+})
+
 // FUNCTIONS FOR HOVER 
 
 const enlightenBar = function (bar) {
