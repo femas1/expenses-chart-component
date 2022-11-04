@@ -33,6 +33,8 @@ const friBar = document.querySelector('.container__main__heading__days__fri__bar
 const satBar = document.querySelector('.container__main__heading__days__sat__bar');
 const sunBar = document.querySelector('.container__main__heading__days__sun__bar');
 
+// FUNCTIONS FOR HOVER 
+
 const enlightenBar = function (bar) {
     bar.style.filter = "brightness(150%)"
 }
@@ -41,5 +43,19 @@ const darkenBar = function (bar) {
     bar.style.filter = "brightness(100%)"
 }
 
-monBar.addEventListener('mouseover', () => enlightenBar(monBar))
-monBar.addEventListener('mouseout', () => darkenBar(monBar))
+// APPLYING HOVER EFFECT TO ALL BARS 
+
+monBar.addEventListener('mouseover', () => enlightenBar(monBar));
+monBar.addEventListener('mouseout', () => darkenBar(monBar));
+tueBar.addEventListener('mouseover', () => enlightenBar(tueBar));
+tueBar.addEventListener('mouseout', () => darkenBar(tueBar));
+wedBar.addEventListener('mouseover', () => enlightenBar(wedBar));
+wedBar.addEventListener('mouseout', () => darkenBar(wedBar));
+thuBar.addEventListener('mouseover', () => enlightenBar(thuBar));
+thuBar.addEventListener('mouseout', () => darkenBar(thuBar));
+friBar.addEventListener('mouseover', () => enlightenBar(friBar));
+friBar.addEventListener('mouseout', () => darkenBar(friBar));
+satBar.addEventListener('mouseover', () => enlightenBar(satBar));
+satBar.addEventListener('mouseout', () => darkenBar(satBar));
+sunBar.addEventListener('mouseover', () => enlightenBar(sunBar));
+sunBar.addEventListener('mouseout', () => darkenBar(sunBar));
