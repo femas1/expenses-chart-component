@@ -32,3 +32,14 @@ const thuBar = document.querySelector('.container__main__heading__days__thu__bar
 const friBar = document.querySelector('.container__main__heading__days__fri__bar');
 const satBar = document.querySelector('.container__main__heading__days__sat__bar');
 const sunBar = document.querySelector('.container__main__heading__days__sun__bar');
+
+const enlightenBar = function (bar) {
+    bar.style.filter = "brightness(150%)"
+}
+
+const darkenBar = function (bar) {
+    bar.style.filter = "brightness(100%)"
+}
+
+monBar.addEventListener('mouseover', () => enlightenBar(monBar))
+monBar.addEventListener('mouseout', () => darkenBar(monBar))

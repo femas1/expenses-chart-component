@@ -70,8 +70,9 @@ body {
     width: 50px;
     height: 150px;
     background-color: hsl(10, 79%, 65%);
-    transition: all 2s;
+    transition: all 1s;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .container__main__heading__days__wed__bar {
