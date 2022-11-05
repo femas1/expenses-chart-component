@@ -96,6 +96,7 @@ body {
     border-radius: 0 0 30px 30px;
     background-color: hsl(0, 0%, 100%);
     color: black;
+    margin-top: 20px;
 }
 
 .container__main__footer__heading__text, 
@@ -106,10 +107,6 @@ body {
 .container__main__footer__heading__balance{
     font-size: 40px;
     font-weight: 700;
-}
-
-.container__main__footer {
-    margin-top: 20px;
 }
 
 .container__main__footer__heading__performance__percentile {
@@ -124,6 +121,29 @@ body {
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
+}
+
+/* RESPONSIVE STYLING  */
+
+@media (max-width: 500px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container__main,
+    .container__heading,
+    .container__main__footer {
+        width: 450px;
+    }
+
+    .container__main__heading__days {
+        width: 100%;
+        margin: 0;
+    }
+
 }
 
 .hidden {
