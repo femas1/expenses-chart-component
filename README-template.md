@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+[images/screenshotDesktop.png]
 
 ### Links
 
@@ -51,6 +51,7 @@ Users should be able to:
 ### What I learned
 
 - Getting data from local json file using the fetch method
+- Toggling classList of an Element based on getting a sibling (Element.previousElemetSibling)
 
 ## Author
 
