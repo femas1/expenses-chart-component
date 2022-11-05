@@ -38,11 +38,17 @@ const hoverValues = document.querySelectorAll('.barValue');
 
 bars.forEach(bar => {
     bar.addEventListener('mouseover', () => {
-        hoverValues.forEach(hoverValue => {
-            hoverValue.closest('span').classList.remove('hidden')
-        })
+        bar.previousElementSibling.classList.remove('hidden')
     })
 })
+
+bars.forEach(bar => {
+    bar.addEventListener('mouseout', () => {
+        bar.previousElementSibling.classList.add('hidden')
+    })
+})
+ 
+
 
 // FUNCTIONS FOR HOVER 
 
