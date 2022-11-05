@@ -146,6 +146,58 @@ body {
 
 }
 
+@media (max-width: 450px) {
+
+    .container__main,
+    .container__heading,
+    .container__main__footer {
+        width: 375px;
+    }
+
+    .container__main__heading {
+      padding: 0;
+      padding-top: 15px;
+      text-align: center;
+    }
+  
+    .container__main__heading__days {
+        display: flex;
+        padding: 0 20px;
+    }
+
+    .container__main__heading__days__mon,
+    .container__main__heading__days__tue,
+    .container__main__heading__days__wed,
+    .container__main__heading__days__thu,
+    .container__main__heading__days__fri,
+    .container__main__heading__days__sat,
+    .container__main__heading__days__sun {
+        max-width: 30px;
+    }
+
+    .container__main__heading__days__mon__bar,
+    .container__main__heading__days__tue__bar,
+    .container__main__heading__days__wed__bar,
+    .container__main__heading__days__thu__bar,
+    .container__main__heading__days__fri__bar,
+    .container__main__heading__days__sat__bar,
+    .container__main__heading__days__sun__bar {
+        width: 30px;
+        border-radius: 5px;
+        transform: translate(0);
+ 
+}
+
+.barValue {
+   font-size: 13px;
+    padding: 5px;
+    text-align: center;
+    display: inline-block;
+    transform: translate(-10px, -13px);
+}
+
+}
+
 .hidden {
     opacity: 0;
 }
