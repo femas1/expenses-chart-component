@@ -1,14 +1,8 @@
 # Frontend Mentor - Expenses chart component solution
 
-This is a solution to the [Expenses chart component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/expenses-chart-component-e7yJBUdjwt). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+Live Site URL: [https://friendly-unicorn-3003d8.netlify.app/]
 
-## Table of contents
-
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
+This is a solution to the [Expenses chart component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/expenses-chart-component-e7yJBUdjwt). 
 
 ### The challenge
 
@@ -19,17 +13,6 @@ Users should be able to:
 - View the optimal layout for the content depending on their device’s screen size
 - See hover states for all interactive elements on the page
 - **Bonus**: Use the JSON data file provided to dynamically size the bars on the chart
-
-### Screenshot
-
-![Screenshot](./images/screenshotDesktop.png)
-
-### Links
-
-- Solution URL: [https://github.com/femas1/expenses-chart-component.git]
-- Live Site URL: [https://friendly-unicorn-3003d8.netlify.app/]
-
-## My process
 
 ### Built with
 
